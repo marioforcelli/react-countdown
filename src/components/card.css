@@ -1,0 +1,29 @@
+.launching-text{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+    margin-top: 30px;
+}
+
+.card{
+    margin: 15px;
+    box-shadow:0px 10px 5px 0px rgba(0, 0, 0, 1);
+    background-color: hsl(236, 21%, 26%);
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: hsl(345, 95%, 68%);
+    font-size: 60px;
+}
